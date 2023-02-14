@@ -3,9 +3,37 @@
     display: flex;
 
 }
+
 .nav-container{
     width: 100%;
     display: flex;
     justify-content: space-around;
     
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.navBar{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navBar ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a:hover{
+    color: lightblue;
 }

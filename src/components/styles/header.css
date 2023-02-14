@@ -1,4 +1,10 @@
 header{
     width: 100%;
+    background-color: rgb(121, 14, 222);
     
+}
+
+.divi{
+    background-color: red;
+    height: 100vh;
 }

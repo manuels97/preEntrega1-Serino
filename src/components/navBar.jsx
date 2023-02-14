@@ -5,6 +5,10 @@ import CardWidget from './cardWidget';
 import "./styles/Mensaje.css"
 import "./styles/navBar.css"
 import "./styles/header.css"
+import { BrowserRouter,Routes,Route, Link } from "react-router-dom";
+import ItemListContainer from './p2/itemListContainer';
+import ItemDetailContainer from './p2/ItemDetailContainer';
+import Mensaje from './Mensaje';
 
 
 const NavBar = () => {
@@ -13,31 +17,43 @@ const NavBar = () => {
 
     <div>
         <header className='headerp'>
-        <div className='carrito'>
+        {/* <div className='carrito'>
             <CardWidget></CardWidget>
-        </div>
+        </div> */}
         <div className='header-container'>
 
-            <div className='menu-button'>
+            {/* <div className='menu-button'>
             <FontAwesomeIcon icon={faBars} size="lg" color='black' />
-            </div>
+            </div> */}
 
-            <nav className='nav-c'>
-                <ul className='nav-container'>
-                    <li>
-                        <a href='/'>INCIO</a>
-                    </li>
-                    <li className='productos-nav'>
-                        <a href='/'>PRODUCTOS</a>
-                    </li>
-                    <li>
-                        <a href='/'>NOSOTROS</a>
-                    </li>
-                    <li>
-                        <a href='/'>CONTACTO</a>
-                    </li>
-                </ul>
-            </nav>
+
+           
+                <nav className='navBar'>
+                    <ul>
+                        <li>
+                            <Link to="/"> HOME </Link>
+                        </li>
+                        <li>
+                        <Link to="/catalogo"> CATALOGO</Link>
+                        </li>
+                        <li className='productos-nav'>
+                            <Link to='/about'> ABOUT </Link>
+                        </li>
+                        <li>
+                        <Link > CONTACTO</Link>
+                        </li>
+                    </ul>
+                </nav>
+
+
+
+                
+
+
+
+
+
+         
 
             </div>
         </header>

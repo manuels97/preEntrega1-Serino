@@ -1,5 +1,42 @@
-.carrito{
+.catalogo{
     display: flex;
     justify-content: center;
-    display: none;
+    text-align: end;
+    
 }
+
+table thead tr th{
+    font-size: 25px;
+    color: blueviolet;
+    
+}
+
+tbody td {
+   width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .imagenn{
+    background-image: url("../../../dulce.jpg");
+    background-size:cover;
+    background-position-y: center;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.divi{
+    background-color: red;
+    height: 100vh;
+} */

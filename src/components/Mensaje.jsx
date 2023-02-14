@@ -6,7 +6,7 @@ const Mensaje = () => {
         <div >
             <article>
                 <h1 className='titulo'>QUILA MANTEQUILLA</h1>
-                <p className='subt'>Somos un emprendimento de ....</p>
+                <p className='subt'>Te invitamos a conocer todos nuestros productos!</p>
             </article>
         </div>
        </section>
