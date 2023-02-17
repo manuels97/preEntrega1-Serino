@@ -1,0 +1,14 @@
+.mantes1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.compra{
+    background-color: blueviolet;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+}

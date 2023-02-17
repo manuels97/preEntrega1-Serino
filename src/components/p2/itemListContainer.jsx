@@ -47,7 +47,7 @@ const ItemListContainer = () => {
                 <thead>
                     <tr>
                         <th>Producto</th>
-                        <th>Descripcion</th>
+                        
                         <th>Comprar</th>
                     </tr>
                 </thead>
@@ -55,11 +55,11 @@ const ItemListContainer = () => {
             <tbody>
                     {data.map((product)=>(
                     <tr key={product.id}>
-                        <td>{product.descripcion}</td>
+                
                         <td>{product.nombre}</td>
                         
                         <td>
-                            <Link to={ItemDetailContainer(product.id)} className="btn btn-light" ><FontAwesomeIcon icon="fa-solid fa-cart-shopping" />✓</Link>
+                            <Link to={`/item/${product.id}`}  className="btn btn-light" ><FontAwesomeIcon icon="fa-solid fa-cart-shopping" />✓</Link>
 
                         </td>
                     </tr>
