@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Link, Route, Routes, useParams } from 'react-router-dom';
-import ItemDetailContainer from './ItemDetailContainer';
 import data from "../catalogo.json"
 import "./../styles/carrito.css"
 import { ItemList } from './ItemList';

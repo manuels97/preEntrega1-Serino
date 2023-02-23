@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import data from "../catalogo.json"
-import { ItemDetail } from './ItemDetail';
+import "../styles/ItemDetailContainer.css"
 
 
 
@@ -37,9 +37,9 @@ const ItemDetailContainer = (props) => {
         <div>
             <div className='mantes1'>
                     <h2>{data[productId-1].nombre}</h2>
-                    {/* No se por qué no muestra esta imagen */}
-                    <img src={data[productId-1].img} alt="mante"></img> 
-
+                    {/* No se por qué no muestra esta imagen
+                    <img src={data[productId-1].img} alt="mante"></img>  */}
+                    <div className="imagen"></div>
                     <p>{data[productId-1].descripcion}</p>
                     <p>Precio: ${data[productId-1].precio}</p>
                     <button className='compra'>COMPRAR</button>

@@ -1,0 +1,7 @@
+.imagen{
+    background-image: url("../img/dulce.jpg");
+    height: 70vh;
+    width: 70vh;
+    background-position: center;
+    background-size: cover;
+}

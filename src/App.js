@@ -21,7 +21,6 @@ function App() {
           <Route path="/" element={<Mensaje/>}/>
           <Route path="/catalogo/:tipoProducto" element={<ItemListContainer/>}/>
           <Route path="/item/:productId" element={<ItemDetailContainer/>}/>
-        {/*   <Route path="/edit/:id" element={<Edit/>}/> */}
       </Routes>
     </BrowserRouter>
     </div>

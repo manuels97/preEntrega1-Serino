@@ -3,3 +3,11 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.imagen2{
+    background-image: url("../img/dulce.jpg");
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    background-position: center;
+}
