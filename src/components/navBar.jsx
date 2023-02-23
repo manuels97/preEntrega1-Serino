@@ -1,74 +1,32 @@
-import React from 'react';
+import './styles/navBar.css';
+import {NavLink, Link} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
-import CardWidget from './cardWidget';
-import "./styles/Mensaje.css"
-import "./styles/navBar.css"
-import "./styles/header.css"
-import { BrowserRouter,Routes,Route, Link } from "react-router-dom";
-import ItemListContainer from './p2/itemListContainer';
-import ItemDetailContainer from './p2/ItemDetailContainer';
-import Mensaje from './Mensaje';
-
-
-const NavBar = () => {
-   
-    return (
-
-    <div>
-        <header className='headerp'>
-        {/* <div className='carrito'>
-            <CardWidget></CardWidget>
-        </div> */}
-        <div className='header-container'>
-
-            {/* <div className='menu-button'>
-            <FontAwesomeIcon icon={faBars} size="lg" color='black' />
-            </div> */}
-
-
-           
-                <nav className='navBar'>
-                    <ul>
-                        <li>
-                            <Link to="/"> HOME </Link>
-                        </li>
-                        <li>
-                        <Link to="/catalogo"> CATALOGO</Link>
-                        </li>
-                        <li className='productos-nav'>
-                            <Link to='/about'> ABOUT </Link>
-                        </li>
-                        <li>
-                        <Link > CONTACTO</Link>
-                        </li>
-                    </ul>
-                </nav>
 
 
 
+export const Navbar = () =>{
+    return(
+        <nav className='navBar'>
+            <Link to="/">
+                <div>
+                    <h1 className='logo'>Q</h1>
+                </div>
+            </Link>
+            <div className='navegacion'>
+                    <NavLink className={({isActive})=>isActive ? "claseActive": "claseInactive"}
+                    to="/">Inicio</NavLink>
+                    <NavLink className={({isActive})=>isActive ? "claseActive": "claseInactive"}
+                    to="/catalogo/normal">Mantequillas normales</NavLink>
+                    <NavLink className={({isActive})=>isActive ? "claseActive": "claseInactive"}
+                    to="/catalogo/big">Mantequillas BIG</NavLink>
                 
-
-
-
-
-
-         
-
+                <FontAwesomeIcon icon="fa-sharp fa-solid fa-cart-shopping" />
+                </div>
+                <div>
+                
+                
             </div>
-        </header>
-
-        </div>
-
-
-
-        
-
-
-
-
-    
-    );
+        </nav>
+    )
 }
 
-export default NavBar;

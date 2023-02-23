@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import data from "../catalogo.json"
+import { ItemDetail } from './ItemDetail';
 
 
 
@@ -13,6 +14,22 @@ import data from "../catalogo.json"
 const ItemDetailContainer = (props) => {
 
     const {productId} = useParams();
+    const [item, setItem] = useState({});
+
+    const getItem = (id)=>{
+        return new Promise((resolve, reject)=>{
+            const product = data.find(item=>item.id === parseInt(id));
+            resolve(product)
+        })
+    }
+
+    useEffect(()=>{
+        const getProducto = async()=>{
+            const producto = await getItem(productId);
+            setItem(producto);
+        }
+        getProducto();
+    },[productId])
 
     
 
@@ -26,6 +43,8 @@ const ItemDetailContainer = (props) => {
                     <p>{data[productId-1].descripcion}</p>
                     <p>Precio: ${data[productId-1].precio}</p>
                     <button className='compra'>COMPRAR</button>
+
+                    {/* <ItemDetail item={item}></ItemDetail> */}
                     
                 
                 

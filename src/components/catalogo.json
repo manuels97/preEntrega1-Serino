@@ -1,13 +1,13 @@
 [
-    {"id":1, "nombre": "Mantequilla Natural", "descripcion":" Mantequilla de mani sabor natural, sin agregados, SOLO mani", "precio":480, "cantad":1, "img":"img/dulce.jpg"},
-    {"id":2, "nombre": "Mantequilla Cacao", "descripcion":" Mantequilla de mani sabor Cacao. El mejor cacao importado de brasil", "precio":480, "cantad":1, "img":"img/dulce.jpg"},
-    {"id":3, "nombre": "Mantequilla Coco", "descripcion":" Mantequilla de mani sabor Coco.", "precio":480, "cantad":1, "img":"img/dulce.jpg"},
-    {"id":4, "nombre": "Mantequilla Protein", "descripcion":" Mantequilla de mani sabor Protein. Con 30gr mas de proteina por pote", "precio":600, "cantad":1, "img":"img/dulce.jpg"},
-    {"id":5, "nombre": "Mantequilla Premium", "descripcion":" Mantequilla de mani sabor Premium. Con crunch de almendras","precio":550, "cantad":1, "img":"img/dulce.jpg"},
+    {"id":1, "categoria":"normal", "nombre": "Mantequilla Natural", "descripcion":" Mantequilla de mani sabor natural, sin agregados, SOLO mani", "precio":480, "cantad":1, "img":"img/dulce.jpg"},
+    {"id":2, "categoria":"normal", "nombre": "Mantequilla Cacao", "descripcion":" Mantequilla de mani sabor Cacao. El mejor cacao importado de brasil", "precio":480, "cantad":1, "img":"img/dulce.jpg"},
+    {"id":3, "categoria":"normal", "nombre": "Mantequilla Coco", "descripcion":" Mantequilla de mani sabor Coco.", "precio":480, "cantad":1, "img":"img/dulce.jpg"},
+    {"id":4, "categoria":"normal", "nombre": "Mantequilla Protein", "descripcion":" Mantequilla de mani sabor Protein. Con 30gr mas de proteina por pote", "precio":600, "cantad":1, "img":"img/dulce.jpg"},
+    {"id":5, "categoria":"normal", "nombre": "Mantequilla Premium", "descripcion":" Mantequilla de mani sabor Premium. Con crunch de almendras","precio":550, "cantad":1, "img":"img/dulce.jpg"},
 
-    {"id":6, "nombre": "Mantequilla BIG  Natural", "descripcion":" Mantequilla de mani BIG sabor natural, sin agregados, SOLO mani" ,"precio":700, "cantad":1, "img":"img/dulce.jpg"},
-    {"id":7, "nombre": "Mantequilla BIG Cacao", "descripcion":" Mantequilla de mani BIG sabor Cacao. El mejor cacao importado de brasil", "precio":700, "cantad":1, "img":"img/dulce.jpg"},
-    {"id":8, "nombre": "Mantequilla BIG Coco", "descripcion":" Mantequilla de mani BIG sabor Coco.", "precio":700, "cantad":1, "img":"img/dulce.jpg"},
-    {"id":9, "nombre": "Mantequilla BIG Protein", "descripcion":" Mantequilla de mani BIG sabor Protein. Con 30gr mas de proteina por pote,", "precio":700, "cantad":1, "img":"img/dulce.jpg"},
-    {"id":10, "nombre": "Mantequilla BIG Premium", "descripcion":" Mantequilla de mani BIG sabor Premium. Con crunch de almendras", "precio":700, "cantad":1, "img":"img/dulce.jpg"}
+    {"id":6, "categoria":"big", "nombre": "Mantequilla BIG  Natural", "descripcion":" Mantequilla de mani BIG sabor natural, sin agregados, SOLO mani" ,"precio":700, "cantad":1, "img":"img/dulce.jpg"},
+    {"id":7, "categoria":"big", "nombre": "Mantequilla BIG Cacao", "descripcion":" Mantequilla de mani BIG sabor Cacao. El mejor cacao importado de brasil", "precio":700, "cantad":1, "img":"img/dulce.jpg"},
+    {"id":8, "categoria":"big", "nombre": "Mantequilla BIG Coco", "descripcion":" Mantequilla de mani BIG sabor Coco.", "precio":700, "cantad":1, "img":"img/dulce.jpg"},
+    {"id":9, "categoria":"big", "nombre": "Mantequilla BIG Protein", "descripcion":" Mantequilla de mani BIG sabor Protein. Con 30gr mas de proteina por pote,", "precio":700, "cantad":1, "img":"img/dulce.jpg"},
+    {"id":10, "categoria":"big", "nombre": "Mantequilla BIG Premium", "descripcion":" Mantequilla de mani BIG sabor Premium. Con crunch de almendras", "precio":700, "cantad":1, "img":"img/dulce.jpg"}
 ]
